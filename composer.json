@@ -1,0 +1,34 @@
+{
+  "name": "yanliutafewa/php-mvc-template",
+  "description": "Simple PHP MVC & TailwindCSS Application Template",
+  "type": "project",
+  "version": "0.1",
+  "time": "2025-03-16",
+  "keywords": [
+    "mvc",
+    "framework",
+    "vanilla",
+    "demo",
+    "mysql",
+    "mariadb"
+  ],
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Yan Liu",
+      "email": "20109301@tafe.wa.edu.au",
+      "homepage": "https://yanliutafewa.github.io",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=8.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "Framework\\": "Framework/",
+      "App\\": "App/"
+    }
+  }
+}
